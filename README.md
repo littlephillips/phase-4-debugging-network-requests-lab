@@ -63,11 +63,17 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  - added a new toy and checked on network tab to find what the error was, which was Internal Server Error
+  - the create controller was not defined, changes Toys to Toy!
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  - tried adding a like and checked the network tab to find what the error was, which was unexpected end of JSON input meaning my controller was not rendering json
+  - updated my update controller to render json
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  - tried to donate a toy to goodwill and checked on network tab to find what the error was, which was a a route not found
+  - in the config folder , routes file added a destroy route to the resources, to give a functionality of delete route
