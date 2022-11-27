@@ -64,13 +64,14 @@ developing your own process.
 
   - How I debugged:
   - added a new toy and checked on network tab to find what the error was, which was Internal Server Error
-  - the create controller was not defined, changes Toys to Toy!
+  - the create controller was not defined,
+  -  changed Toys to Toy
 
 - Update the number of likes for a toy
 
   - How I debugged:
   - tried adding a like and checked the network tab to find what the error was, which was unexpected end of JSON input meaning my controller was not rendering json
-  - updated my update controller to render json
+  - edited my update controller to render json
 
 - Donate a toy to Goodwill (and delete it from our database)
 
